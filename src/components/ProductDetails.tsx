@@ -1,7 +1,7 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
 import { RootState } from '../store';
-import { Card, CardContent, CardMedia, Typography, Box, Button } from '@mui/material';
+import { CardContent, CardMedia, Typography, Box, Button } from '@mui/material';
 
 const ProductDetails: React.FC = () => {
   const product = useSelector((state: RootState) => state.salesData.data[0]);
